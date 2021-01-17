@@ -5,8 +5,8 @@
   --clr-neutral-100: #ffffff;
   --clr-neutral-900: #222c2a;
 
-  --ff-primary: 'Roboto', sans-serif;
-  --ff-accent: 'Playfair Display', serif;
+  --ff-accent: 'Merriweather', sans-serif;
+  --ff-primary: 'Roboto', serif;
 }
 
 *,
@@ -35,7 +35,8 @@ h2,
 h3 {
   color: var(--clr-primary-400);
   font-family: var(--ff-accent);
-  font-weight: 900;
+  font-weight: 700;
+  font-style: italic;
   line-height: 1;
 }
 
