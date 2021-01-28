@@ -100,6 +100,12 @@ img {
   text-align: center;
 }
 
+header {
+  background-image: url('img/iceland_reykjavik.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 header,
 section {
   padding: 4rem 0;
