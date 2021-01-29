@@ -101,7 +101,7 @@ img {
 }
 
 header {
-  background-image: url('img/iceland_reykjavik.png');
+  background-image: url('../img/iceland_reykjavik.png');
   background-repeat: no-repeat;
   background-position: center;
 }
