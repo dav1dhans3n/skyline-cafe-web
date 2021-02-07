@@ -98,3 +98,9 @@ h3 {
   font-style: italic;
   line-height: 1;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-left: 1em;
+}
