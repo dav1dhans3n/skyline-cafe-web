@@ -1,7 +1,10 @@
-(function () {
-  'use strict'
+$(function() {
+  $(".form-control").on('focus', function(){
+    $(this).parents(".form-group").addClass('focused');
+});
 
-  document.querySelector('[data-bs-toggle="offcanvas"]').addEventListener('click', function () {
-    document.querySelector('.offcanvas-collapse').classList.toggle('open')
-  })
-})()
+$(".form-control").on('blur', function(){
+  $(this).parents(".form-group").removeClass('focused');
+});
+});
+
