@@ -1,5 +1,7 @@
 :root {
-  --clr-primary-200: #f3eed9;
+/*  --clr-primary-200: #f3eed9;*/
+  --clr-primary-200: #e3e0cf;
+  --clr-primary-300: #c5d5cb;
   --clr-primary-400: #824936;
 
   --clr-neutral-100: #bdc3c7;
@@ -97,6 +99,9 @@ section {
 .sky-bg-yellow {
   background-color: var(--clr-primary-200);
 }
+.sky-dk-yellow {
+  background-color: var(--clr-primary-300);
+}
 .sky-bg-brown {
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-400);
@@ -128,6 +133,9 @@ img {
   margin-left: 1em;
 }
 
+.border-bottom {
+  border-bottom: 1px solid #88a4c0 !important;
+}
 .sky-container {
   margin-inline: auto;
   width: min(90%, 70.5rem);
