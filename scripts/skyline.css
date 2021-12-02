@@ -111,6 +111,11 @@ section {
   background-color: var(--clr-neutral-900);
 }
 
+.sky-banner {
+  color: rgba(7, 7, 124, 0.1);
+  background-color:rgba(156, 199, 240, 0.7);
+}
+
 h1,
 h2,
 h3 {
