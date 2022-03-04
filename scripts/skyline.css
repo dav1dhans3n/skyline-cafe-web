@@ -116,6 +116,11 @@ section {
   background-color: rgb(179, 32, 32);
 }
 
+.sky-bg-blue {
+  color: white;
+  background-color: rgb(51, 125, 194);
+}
+
 .sky-banner {
   color: rgba(7, 7, 124, 0.1);
   background-color:rgba(156, 199, 240, 0.7);
